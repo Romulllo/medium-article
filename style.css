@@ -1,0 +1,86 @@
+
+body {
+  background-color: #1a1c20;
+  color: #f4f4f4;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: normal;
+}
+
+.banner {
+  background-image: url("https://1.bp.blogspot.com/-LY-wmTInsOg/WbwWHRAeaQI/AAAAAAAAMok/3k5SZUyQ6aQ7eKRDEauo8ws9xhVOlqmAACLcBGAs/s1600/Foo-Fighters-2017.jpg");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+  letter-spacing: .4rem;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.link-medium {
+  border-radius: 8px;
+  background-color: white;
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+}
+.link-medium:hover {
+  color: black;
+  transition-duration: 0.6s;
+  background-color: #158467;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
